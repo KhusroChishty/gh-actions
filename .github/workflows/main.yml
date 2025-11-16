@@ -1,0 +1,12 @@
+name: Frist Lesson
+on:
+  push:
+    branches:
+      - main
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Khusro Chishty"
+
+  
